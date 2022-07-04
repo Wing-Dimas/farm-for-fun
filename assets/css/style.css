@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --green1 : #CEE8D7;
+    --green2 : #116530;
+    --green3 : #0B4619;
+    --yellow : #FFCC1D;
+    --brown : #B04A00;
+    --blue : #63A6FF;
+}
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav.navbar{
+    background-color: transparent;
+    padding: 1rem 2rem;
+}
+
+.navbar-nav li.nav-item{
+    padding: 0 20px;
+}
+
+.navbar-nav li.nav-item .nav-link{
+    font-size: 1rem;
+    font-weight: 500;
+    color : var(--green2);
+}
+
+.navbar-brand{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.btn-contact{
+    position: relative;
+    border: 1px solid var(--green3);
+    border-radius: 4px;
+    padding: 0.22rem 0;
+    top: 8px;
+}
+
+.fi-rs-user{
+    position: relative;
+    font-size: 24px;
+    top: 5px;
+}
+
+.jumbotron h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--green3);
+}
+
+.jumbotron .lead{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--green2);
+    line-height: 2rem;
+    padding: 0 5em;
+}
+.btn-explore-market{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient(128deg, var(--yellow) 0%, var(--green2) 100%);
+}
+.btn-explore-market:hover{
+    border: none;
+}
+.btn-explore-market .text{
+    font-size: 1.8rem;
+    color: #000;
+}
+.btn-explore-market .icon{
+    position: relative;
+    background-color: var(--yellow);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.btn-explore-market .fi-rs-exchange {
+    position: absolute;
+    top: 1em;
+}
+
+.card-market{
+    background-repeat: no-repeat; 
+    width: 250px; 
+    height: 250px;
+    padding: 5px;
+    margin: 0;
+}
+.card-market .content-market{
+    background-color: rgba(0, 0, 0, 0.43);
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+.card-market .content-market .text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-market .content-market .btn-exchange{
+    font-size: 14px;
+    padding: 0 10px;
+    background-color: var(--yellow);
+    color: #000;
+    border-radius: 100px;
+}
+
+.get-started .btn-build{
+    background-color: var(--yellow);
+    padding: 5px 20px;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+}
+.get-started .btn-build:hover{
+    border: none;
+}
+.join{
+    margin-top: 18rem;
+    background: radial-gradient(47.29% 47.29% at 50% 50%, rgba(17, 101, 48, 0.46) 0%, rgba(99, 166, 255, 0) 100%)
+}
+.benefits{margin-top: 18rem;}
+
+.badge{
+    position: absolute;
+    background-color: var(--green3);
+    padding: 15px 20px;
+    right: -3em;
+    width: 170px;
+    border-radius: 0;
+}
+.badge .icon > *{
+    font-size: 3rem;
+    color: var(--yellow);
+}
+
+.badge-user{top: 3em;}
+.badge-property{bottom: 3em;}
+
+footer{
+    background-color: var(--brown);
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.list-group-item.list-group-item-action.active{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.list-group-item.list-group-item-action{
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 18px;
+    background-color: transparent;
+}
+.list-group-item.list-group-item-action:hover{
+    background-color: transparent;
+}
+
+.list-group-item.list-group-item-action ion-icon{
+    font-size: 30px;
+}
+
+.footer-footer{
+    background-color: #5A2600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-footer .list-group-item.list-group-item-action.break{
+    width: min-content;
+}
+
+.footer-footer .list-group-item.list-group-item-action{
+    width: max-content;
+}

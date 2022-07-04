@@ -1,0 +1,258 @@
+/* LOGO */
+.navbar-brand::after{
+    content: "";
+    position: absolute;
+    display: block;
+    border-radius: 50px;
+    width: 21px;
+    height: 21px;
+    background-color: var(--yellow);
+    right: -0.4rem;
+    top: 0.5rem;
+    z-index: -9;
+}
+
+.navbar .container-fluid::before{
+    content: "";
+    background-color: var(--yellow);
+    position: absolute;
+    display: block;
+    border-radius: 50px;
+    background: linear-gradient(180deg, var(--blue) 0%, var(--green3) 100%);
+    top: -1.5rem;
+    left: calc(50% - 20px);
+    width: 54px;
+    height: 54px;
+    transform: rotateZ(-24deg);
+    z-index: -9;
+}
+.particel{
+    position: absolute;
+    display: block;
+    z-index: -9;
+}
+
+.jumbotron::after, .jumbotron::before, section.jumbotron::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 458px;
+    height: 458px;
+    border-radius: 50px;
+    z-index: -9;
+}
+
+.jumbotron::before{
+    background: rgba(255, 204, 29, 0.9);
+    filter: blur(196px);
+    left: 4rem;
+}
+
+.jumbotron::after{
+    background: rgba(11, 70, 25, 1);
+    filter: blur(196px);
+    right: 4rem;
+}
+
+.jumbotron .particel:nth-child(1){
+    width: 217px;
+    height: 217px;
+    background: rgba(99, 166, 255, 0.8);
+    filter: blur(120px);
+    left: 50%;
+}
+
+.jumbotron .particel:nth-child(2){
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #FFCC1D 0%, #116530 100%);
+    transform: rotate(-24.49deg);
+    top: 250px;
+    left: 98.24px;
+}
+
+.jumbotron .particel:nth-child(3){
+    width: 28.94px;
+    height: 28.94px;
+    border-radius: 100px;
+    background: rgba(99, 166, 255, 0.46);
+    transform: rotate(-24.49deg);
+    top: 298px;
+    left: 132px;
+}
+
+.jumbotron .particel:nth-child(4){
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, rgba(99, 166, 255, 0.46) 0%, #116530 100%);
+    transform: rotate(-24.49deg);
+    top: 450px;
+    right: 226.47px;
+}
+
+.jumbotron .particel:nth-child(5){
+    top: 150px;
+    left: 142px;
+    z-index: -1;
+}
+.jumbotron .particel:nth-child(6){
+    top: 350px;
+    right: 204px;
+    z-index: -1;
+}
+.jumbotron .particel:nth-child(7){
+    top: 350px;
+    right: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.get-started .particel:nth-child(1){
+    top: -2rem;
+    left: -8rem;
+}
+.get-started .particel:nth-child(2){
+    right: -8rem;
+    bottom: 0;
+}
+
+.get-started .particel:nth-child(3){
+    left: 467px;
+    bottom: -8rem;
+}
+
+.get-started .particel:nth-child(4){
+    top: 12rem;
+    left: 208px;
+}
+.get-started .particel:nth-child(5){
+    top: 12.5rem;
+    left: 218px;
+    z-index: -10;
+}
+
+.get-started .particel:nth-child(6){
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #FFCC1D 0%, #116530 100%);
+    transform: rotate(-24.49deg);
+    left: 218px;
+    bottom: 2rem;
+}
+
+.get-started .particel:nth-child(7){
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, rgba(99, 166, 255, 0.46) 0%, #116530 100%);
+    transform: rotate(-24.49deg);
+    left: 232px;
+    bottom: 1rem;
+}
+    
+.get-started .particel:nth-child(8){
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #FFCC1D 0%, #116530 100%);
+    transform: rotate(-24.49deg);
+    right: 187.47px;
+    top: 0;
+}
+
+.get-started .particel:nth-child(9){
+    top: 0;
+    right: 218px;
+    transform: rotateZ(90deg);
+}
+.get-started .particel:nth-child(10){
+    right: 218px;
+    bottom: -4rem;
+}
+
+.join .particel:nth-child(1){
+    top: -4rem;
+    left: 246px;
+}
+
+.join .particel:nth-child(2){
+    top: 10.8rem;
+    left: calc(50% - 10px);
+}
+.join .particel:nth-child(3){
+    top: 10rem;
+    left: calc(50% + 20px);
+}
+.join .particel:nth-child(4){
+    width: 115.33px;
+    height: 115.33px;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #FFCC1D 0%, #B04A00 100%);
+    transform: rotate(-24.49deg);
+    bottom: -4rem;
+    right: -4rem;
+}
+
+.join .container .container .particel:nth-child(1){
+    width: 83px;
+    height: 83px;
+    background: linear-gradient(139.06deg, #B04A00 0%, #FFCC1D 93.84%);
+    border-radius: 21px;
+    top: -36px;
+    left: 36px;
+    z-index: 10;
+}
+.join .container .container .particel:nth-child(2){
+    width: 278px;
+    height: 28px;
+    background: linear-gradient(90deg, #FFCC1D 0%, #B04A00 96.94%);
+    border-radius: 21px;
+    top: 260px;
+    left: 0;
+}
+
+.benefits .particel:nth-child(1){
+    top: -80px;
+    left: 258px;
+    transform: rotateZ(90deg);
+}
+
+.benefits .particel:nth-child(2){
+    top: 180px;
+    left: -12rem;
+    transform: rotateZ(90deg);
+}
+
+.benefits .particel:nth-child(3){
+    top: 120px;
+    left: 679px;
+    z-index: 10;
+}
+
+.benefits .particel:nth-child(4){
+    width: 115.33px;
+    height: 115.33px;
+    background: linear-gradient(180deg, #FFCC1D 0%, #116530 100%);
+    transform: rotate(-24.49deg);
+    border-radius: 100px;
+    top: 450px;
+    left: 690px;
+    z-index: 10;
+}
+
+.benefits .particel:nth-child(5){
+    width: 278px;
+    height: 28px;
+    background: linear-gradient(90deg, #B04A00 0%, #FFCC1D 96.94%);
+    border-radius: 21px;
+    top: 500px;
+    right: 55px;
+}
+
+.benefits .particel:nth-child(6){
+    top: 500px;
+}
