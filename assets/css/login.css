@@ -1,0 +1,67 @@
+.form-login{
+    background-color: var(--green2);
+    border-radius: 20px;
+}
+
+.form-login h2{
+    color: #fff;
+    font-weight: 700;
+}
+
+.form-login input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 0;;
+    border-bottom: 2px solid var(--yellow);
+}
+
+.form-login input:focus{
+    background-color: transparent;
+    color: white;
+    outline: transparent;
+}
+
+.form-login input:focus ~ label{
+    opacity: 1;
+}
+
+.form-login label{
+    color: var(--yellow);
+    opacity: .4;
+}
+
+.form-login .form-floating::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: var(--yellow);
+    left: 0;
+    bottom: -3px;
+}
+
+.form-login .form-floating::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: var(--yellow);
+    right: 0;
+    bottom: -3px;
+}
+
+.btn-submit{
+    background-color: var(--yellow);
+    width: 200px;
+    border: none;
+    border-radius: 25px;   
+}
+.btn-submit:hover{
+    background-color: var(--yellow);
+    border: none;
+    opacity: .9;
+}
+

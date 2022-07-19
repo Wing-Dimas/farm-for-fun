@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Farm For Fun</title>
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+		<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="./assets/css/homepage.css">
+	</head>
+	<body>
+        <section>
+            <div class="hero text-light bg-dark p-5">
+                <h1>Welcome To Farm For Fun</h1>
+
+                <div class="search-box container">
+                    <div class="row justify-content-between">
+                        <div class="col col-md-10">
+                            <form action="">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="search" aria-describedby="emailHelp">
+                                    <label for="search" class="form-label text-dark">Email address</label>
+                                </div>
+                            </div>
+                            <div class="col col-md-2">
+                                <div class="btn-group">
+                                    <button type="submit" class="btn btn-danger">Search</button>
+                                </form>
+                                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+
+
+        <div class="layer" style="position: absolute; width: 100vw; height: 100vh  ;background-color: rgba(0,0,0,1); display: none; z-index: 2;"></div>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+        <script>
+            const btnDropdown = document.querySelector(".dropdown-toggle");
+            const layer = document.querySelector(".layer");
+
+            btnDropdown.addEventListener("click", function(){
+                layer.style.display = "block"
+            })
+            btnDropdown.addEventListener("focus", function(){
+                layer.style.display = "block"
+            })
+            btnDropdown.addEventListener("focusout", function(){
+                layer.style.display = "none"
+            })
+        </script>
+	</body>
+</html>	
