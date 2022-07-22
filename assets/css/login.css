@@ -70,3 +70,29 @@
     opacity: .9;
 }
 
+
+.form-login::before{
+    content: "";
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    top: -5rem;
+    left: -5em;
+    z-index: -1;
+    background-color: var(--yellow);
+    filter: blur(80px);
+}
+
+.form-login::after{
+    content: "";
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    bottom: -5rem;
+    right: -5em;
+    z-index: -1;
+    background-color: var(--blue);
+    filter: blur(80px);
+}
