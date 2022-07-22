@@ -14,21 +14,26 @@
     border: none;
     border-radius: 0;;
     border-bottom: 2px solid var(--yellow);
+    box-shadow: none;
 }
 
 .form-login input:focus{
     background-color: transparent;
     color: white;
     outline: transparent;
+    box-shadow: none;
 }
 
-.form-login input:focus ~ label{
+.form-floating>.form-control-plaintext~label, 
+.form-floating>.form-control:focus~label, 
+.form-floating>.form-control:not(:placeholder-shown)~label, 
+.form-floating>.form-select~label{
     opacity: 1;
 }
 
 .form-login label{
     color: var(--yellow);
-    opacity: .4;
+    opacity: 1;
 }
 
 .form-login .form-floating::before{

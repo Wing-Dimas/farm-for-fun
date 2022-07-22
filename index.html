@@ -12,7 +12,7 @@
 	</head>
 	<body style="background-color: var(--green1);">
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-expand-lg position-relative">
+		<nav class="navbar navbar-expand-lg position-relative" data-aos="fade-bottom">
 			<div class="container-fluid">
 			<a class="navbar-brand" href="index.html">Farm For Fun</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,16 +21,19 @@
 			<div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
 				<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Marketplace</a>
+					<a class="nav-link" href="#marketplace">Marketplace</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Build</a>
+					<a class="nav-link" href="#build">Build</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Benefits</a>
+					<a class="nav-link" href="#join">Join</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About Us</a>
+					<a class="nav-link" href="#benefits">Benefits</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About Us</a>
 				</li>
 				</ul>
 				<ul class="navbar-nav">
@@ -38,7 +41,7 @@
 						<a href="login.html" class="nav-link"><i class="fi fi-rs-user"></i></a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link btn-contact">contact</a>
+						<a href="#contact" class="nav-link btn-contact">contact</a>
 					</li>
 				</ul>
 			</div>
@@ -80,28 +83,28 @@
 			<div class="container text-center">
 				<h1 class="display-5" data-aos="fade-up" data-aos-delay="100" data-aos-once="true" data-aos-duration="800">Earn money just by farming and trading with your <span style="color: var(--yellow)">property</span></h1>
 				<p class="lead mt-4" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-duration="800">Farming in the digital world can be easily done and profitable by utilizing non-fungible tokens (NFT)</p>
-				<a href="#" class="btn btn-explore-market mt-3" data-aos="fade-up" data-aos-delay="300" data-aos-once="true" data-aos-duration="800">
+				<a href="login.html" class="btn btn-explore-market mt-3" data-aos="fade-up" data-aos-delay="300" data-aos-once="true" data-aos-duration="800">
 					<div class="pe-2 text d-flex justify-content-center align-items-center" style="color: #000;">Explore Marketplace</div>
 					<div class="icon d-flex justify-content-center align-items-center"><i class="fi fi-rs-exchange"></i></div>
 				</a>
 
-				<div class="container mt-5 pt-5">
+				<div id="marketplace" class="container mt-5 pt-5">
 					<div class="row justify-content-between mx-5 px-5">
-						<div class="col col-4 card-market d-flex justify-content-center align-items-end" style="background-image: url('/assets/img/corn.png');" data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="800" data-aos-offset="400">
+						<div class="col col-4 card-market d-flex justify-content-center align-items-end" style="background-image: url('./assets/img/corn.png');" data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="800" data-aos-offset="400">
 							<div class="content-market d-flex justify-content-between">
 								<span class="text">0.00000002 Eth</span>
 								<a href="#" class="btn btn-exchange">Exchange</a>
 
 							</div>
 						</div>
-						<div class="col col-4 card-market d-flex justify-content-center align-items-end" style="background-image: url('/assets/img/wheat.png');" data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="800" data-aos-offset="400">
+						<div class="col col-4 card-market d-flex justify-content-center align-items-end" style="background-image: url('./assets/img/wheat.png');" data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="800" data-aos-offset="400">
 							<div class="content-market d-flex justify-content-between">
 								<span class="text">0.00000008 Eth</span>
 								<a href="#" class="btn btn-exchange">Exchange</a>
 
 							</div>
 						</div>
-						<div class="col col-4 card-market d-flex justify-content-center align-items-end" style="background-image: url('/assets/img/chicken.png');" data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="800" data-aos-offset="400">
+						<div class="col col-4 card-market d-flex justify-content-center align-items-end" style="background-image: url('./assets/img/chicken.png');" data-aos="zoom-in-down" data-aos-once="true" data-aos-duration="800" data-aos-offset="400">
 							<div class="content-market d-flex justify-content-between">
 								<span class="text">0.00000012 Eth</span>
 								<a href="#" class="btn btn-exchange">Exchange</a>
@@ -115,7 +118,7 @@
 		<!-- END JUMBOTRON -->
 
 		<!-- GET STARTED -->
-		<section class="get-started my-5 pt-3 position-relative">
+		<section id="build" class="get-started my-5 pt-3 position-relative">
 			<!-- circle -->
 			<span class="particel" data-aos="fade-right" data-aos-delay="100" data-aos-once="true">
 				<svg width="233" height="233" viewBox="0 0 233 233" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,13 +199,13 @@
 				<img src="./assets/img/leaf logo.png" alt="leaf" class="img-thunbnail" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-once="true" data-aos-duration="800">
 				<h2 style="color: var(--green3); font-weight:500; font-size:3rem" class="mt-5" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-once="true" data-aos-duration="1000">Get Started Your First Farm</h2>
 				<p class="lead" style="font-weight:200; font-size:20px; padding: 0 17em;" data-aos="fade-up" data-aos-offset="100" data-aos-delay="300" data-aos-once="true" data-aos-duration="1200">Create your farm and build it up to be the biggest farm in the Farm For Fun</p>
-				<a href="#" class="btn btn-build" data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-once="true" data-aos-duration="400">Build</a>
+				<a href="login.html" class="btn btn-build" data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-once="true" data-aos-duration="400">Build</a>
 			</div>
 		</section>
 		<!-- END GET STARTED -->
 
 		<!-- JOIN -->
-		<section class="join position-relative" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="50" data-aos-once="true" data-aos-duration="100">
+		<section id="join" class="join position-relative" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="50" data-aos-once="true" data-aos-duration="100">
 			<span class="particel" data-aos="fade-left" data-aos-offset="100" data-aos-delay="50" data-aos-once="true" data-aos-duration="800">
 				<svg width="55" height="25" viewBox="0 0 55 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="5" cy="5" r="5" fill="white"/>
@@ -259,7 +262,7 @@
 		<!-- END JOIN -->
 
 		<!-- BENEFITS -->
-		<section class="benefits position-relative">
+		<section id="benefits" class="benefits position-relative">
 			<span class="particel" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-once="true" data-aos-duration="800">
 				<svg width="55" height="25" viewBox="0 0 55 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="5" cy="5" r="5" fill="white"/>
@@ -299,11 +302,11 @@
 						<div class="col col-6">
 							<div class="container">
 								<div class="row justify-content-between">
-									<div class="col col-4 text-center p-2" style="background-color: var(--yellow); border-radius: 20px;" data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" data-aos-once="true" data-aos-duration="800">
+									<div class="col col-4 text-center p-2" style="background-color: var(--yellow); border-radius: 20px;" data-aos="fade-up" data-aos-offset="300" data-aos-delay="200" data-aos-once="true" data-aos-duration="800">
 										<img src="./assets/img/benefit/image 1.png" alt="">
 										<h6 class="pt-1">Negotiation</h6>
 									</div>
-									<div class="col col-6 text-center p-2" style="border: 2px solid var(--green3); border-radius: 20px;" data-aos="fade-up" data-aos-offset="200" data-aos-delay="400" data-aos-once="true" data-aos-duration="800">
+									<div class="col col-6 text-center p-2" style="border: 2px solid var(--green3); border-radius: 20px;" data-aos="fade-up" data-aos-offset="300" data-aos-delay="400" data-aos-once="true" data-aos-duration="800">
 										<img src="./assets/img/benefit/image 2.png" alt="">
 										<h6 class="pt-3">Communicate</h6>
 									</div>
@@ -330,7 +333,7 @@
 		<!-- END BENEFITS -->
 
 		<!-- FOOTER -->
-		<section class="footer mt-5 pt-5" data-aos="slide-up" data-aos-offset="200" data-aos-delay="100" data-aos-once="true" data-aos-duration="1500">
+		<section id="contact" class="footer mt-5 pt-5" data-aos="slide-up" data-aos-offset="300" data-aos-delay="100" data-aos-once="true" data-aos-duration="1500">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B04A00" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,165.3C672,149,768,171,864,192C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 			<footer>
 				<div class="container">
